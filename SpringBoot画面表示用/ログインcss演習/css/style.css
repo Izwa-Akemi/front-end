@@ -1,0 +1,96 @@
+/* テンプレート */
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 400;
+    margin: 0;
+}
+
+h1 {
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    padding: 10px;
+    background-color: #163867;
+}
+
+main {
+    max-width: 862px;
+    margin: 100px auto 180px auto;
+}
+
+button {
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.user_login_form {
+    width: 60%;
+    background-color: #D6EEE1;
+    margin: 0 auto;
+    padding: 1rem 0;
+}
+
+.user_login_form .form_row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+.user_login_form label {
+    width: 150px;
+    font-size: 18px;
+}
+
+#studentEmail,
+#studentPassword {
+    width: 220px;
+    height: 30px;
+}
+
+.user_login_form button {
+    width: 150px;
+    height: 44px;
+    background-color: #40CD82;
+    border-radius: 22px;
+    margin: auto;
+    display: block;
+}
+
+.user_help_text {
+    font-size: 13px;
+    margin: 0;
+}
+
+.user_help_text a {
+    color: #00A0E9;
+    text-decoration: none;
+}
+
+.user_login_btn {
+    display: block;
+    width: 260px;
+    height: 60px;
+    font-size: 20px;
+    background-color: #40CD82;
+    border-radius: 32px;
+    margin: 30px auto;
+}
+
+footer {
+    background-color: #8F8E8E;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer small {
+    display: block;
+    padding: 30px 0;
+}
