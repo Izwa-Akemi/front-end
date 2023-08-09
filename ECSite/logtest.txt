@@ -1,0 +1,28 @@
+2023-08-09T22:42:52.368+09:00  INFO 11656 --- [main] ecsite.ex.EcSiteApplication              : Starting EcSiteApplication using Java 17.0.7 with PID 11656 (C:\SpringBootJavaClass\ECSite\target\classes started by Akemin in C:\SpringBootJavaClass\ECSite)
+2023-08-09T22:42:52.374+09:00  INFO 11656 --- [main] ecsite.ex.EcSiteApplication              : No active profile set, falling back to 1 default profile: "default"
+2023-08-09T22:42:53.201+09:00  INFO 11656 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-09T22:42:53.289+09:00  INFO 11656 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 76 ms. Found 2 JPA repository interfaces.
+2023-08-09T22:42:53.980+09:00  INFO 11656 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-08-09T22:42:53.995+09:00  INFO 11656 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-09T22:42:53.995+09:00  INFO 11656 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-09T22:42:54.154+09:00  INFO 11656 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-08-09T22:42:54.154+09:00  INFO 11656 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1707 ms
+2023-08-09T22:42:54.335+09:00  INFO 11656 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-09T22:42:54.410+09:00  INFO 11656 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-08-09T22:42:54.414+09:00  INFO 11656 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-08-09T22:42:54.601+09:00  INFO 11656 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-09T22:42:54.810+09:00  INFO 11656 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-09T22:42:54.837+09:00  INFO 11656 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-08-09T22:42:55.064+09:00  INFO 11656 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3dc82e6a
+2023-08-09T22:42:55.067+09:00  INFO 11656 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-08-09T22:42:55.359+09:00  INFO 11656 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-09T22:42:56.243+09:00  INFO 11656 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-09T22:42:56.304+09:00  INFO 11656 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-09T22:42:56.765+09:00  WARN 11656 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-09T22:42:57.190+09:00  INFO 11656 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-09T22:42:57.201+09:00  INFO 11656 --- [main] ecsite.ex.EcSiteApplication              : Started EcSiteApplication in 5.411 seconds (process running for 6.397)
+2023-08-09T22:43:17.071+09:00  INFO 11656 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-08-09T22:43:17.093+09:00  INFO 11656 --- [RMI TCP Connection(2)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-08-09T22:43:17.103+09:00  INFO 11656 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-09T22:43:17.105+09:00  INFO 11656 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-08-09T22:43:17.114+09:00  INFO 11656 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
